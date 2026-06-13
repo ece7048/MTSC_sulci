@@ -175,3 +175,15 @@ or:
 ```bash
 export WANDB_MODE=disabled
 ```
+## Acknowledgement
+
+If you use this code, please cite and reference the manuscript below in any resulting publications, presentations, reports, or derivative works. Citation of the associated manuscript helps acknowledge the contribution of the authors and supports the continued development and maintenance of the project.
+
+Thank you for your support and collaboration.
+
+[1] Mamalakis, Michail et al. “Contrastive-Adversarial and Diffusion: Exploring pre-training and fine-tuning strategies for sulcal identification.” ArXiv abs/2405.19204 (2024): n. pag. https://arxiv.org/abs/2405.19204
+
+[2] Michail Mamalakis, et al., "An explainable three dimensional framework to uncover learning patterns: A unified look in variable sulci recognition",
+Artificial Intelligence in Medicine, Volume 171, 2026, 103286, ISSN 0933-3657, https://doi.org/10.1016/j.artmed.2025.103286.
+
+[3] Jiménez-Mesa, Carmen et al. “Uncovering Neuroimaging Biomarkers of Brain Tumor Surgery with AI-Driven Methods.” ArXiv abs/2507.04881 (2025): n. pag. https://arxiv.org/abs/2507.04881
