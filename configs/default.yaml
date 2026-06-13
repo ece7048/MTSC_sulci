@@ -1,0 +1,51 @@
+# Example configuration for MTSC_sulci runs.
+# Values here can be overridden from the command line.
+
+pre_training:
+  method: pre
+  excel: null
+  afs: ["", ""]
+  bc: ["", ""]
+  batch_n: 2
+  nclass: 3
+  val_every: 2
+  num_epochs: 5
+  DATA_ROOT1: ""
+  DATA_ROOT2: ""
+  PATH: ""
+  model_name: "pre_training_model_swift.pt"
+  roi_size: 64
+  l1: 0.8
+  l2: 0.2
+  save_nii: false
+  lr: 0.001
+  wd: 0.01
+  loops: 24
+  upscale: 64
+  light: false
+  aug_data: false
+  data: "top"
+  time: 1000
+
+classification:
+  case: "simple_MHL"
+  excel: null
+  afs: ["", ""]
+  bc: ["", ""]
+  batch_n: 2
+  nclass: 3
+  num_epochs: 5
+  DATA_ROOT1: ""
+  DATA_ROOT2: ""
+  PATH: ""
+  name: "Lsk_simple3d_new_data_align"
+  model_name: "class_model_benemin.pt"
+  save_nii: false
+  lr: 0.005
+  kind: "step"
+  light: true
+  aug_data: true
+  data: "top"
+  backbone_weights: null
+  pr: "off"
+  back_w: ""
