@@ -1,6 +1,6 @@
 # MTSC Sulci Unsupervised Training
 
-This public cleanup keeps the package focused on:
+This public package focused on:
 
 - unsupervised/pre-training workflows in `pre_training/pretraining.py`
 - fine-tuning workflows in `fine_tuning/fine_tuning.py`
@@ -16,14 +16,6 @@ MTSC_sulci/
 └── utilities/         # data loading, transforms, models, trainers
 ```
 
-The package root keeps compatibility aliases for the old flat imports. Prefer
-the subpackage paths for new code, for example:
-
-```python
-from MTSC_sulci.pre_training.pretraining import pre
-from MTSC_sulci.scripts.classification import classif
-from MTSC_sulci.utilities.load_data import data_build
-```
 
 ## Installation
 
