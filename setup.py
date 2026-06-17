@@ -47,7 +47,6 @@ setup(
         "monai-generative",
         "lightning",
         "wandb",
-        "minlora",
         "tensorflow",
         "tf2onnx",
         "onnx",
